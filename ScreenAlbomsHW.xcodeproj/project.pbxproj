@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FA8518A328535FDF002EA093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518A228535FDF002EA093 /* AppDelegate.swift */; };
-		FA8518A528535FDF002EA093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518A428535FDF002EA093 /* SceneDelegate.swift */; };
-		FA8518A728535FDF002EA093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518A628535FDF002EA093 /* ViewController.swift */; };
 		FA8518AA28535FDF002EA093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8518A828535FDF002EA093 /* Main.storyboard */; };
 		FA8518AC28535FE1002EA093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8518AB28535FE1002EA093 /* Assets.xcassets */; };
 		FA8518AF28535FE1002EA093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8518AD28535FE1002EA093 /* LaunchScreen.storyboard */; };
+		FA8518B8285364D2002EA093 /* MediatekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518B7285364D2002EA093 /* MediatekaViewController.swift */; };
+		FA8518BA285364E5002EA093 /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518B9285364E5002EA093 /* ForYouViewController.swift */; };
+		FA8518BC285364F9002EA093 /* AlbomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518BB285364F9002EA093 /* AlbomsViewController.swift */; };
+		FA8518BE28536505002EA093 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518BD28536505002EA093 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA85189F28535FDF002EA093 /* ScreenAlbomsHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenAlbomsHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8518A228535FDF002EA093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA8518A428535FDF002EA093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA8518A628535FDF002EA093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA8518A928535FDF002EA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA8518AB28535FE1002EA093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8518AE28535FE1002EA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8518B028535FE1002EA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8518B7285364D2002EA093 /* MediatekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatekaViewController.swift; sourceTree = "<group>"; };
+		FA8518B9285364E5002EA093 /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
+		FA8518BB285364F9002EA093 /* AlbomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbomsViewController.swift; sourceTree = "<group>"; };
+		FA8518BD28536505002EA093 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				FA8518A228535FDF002EA093 /* AppDelegate.swift */,
-				FA8518A428535FDF002EA093 /* SceneDelegate.swift */,
-				FA8518A628535FDF002EA093 /* ViewController.swift */,
+				FA8518B628536487002EA093 /* Controllers */,
 				FA8518A828535FDF002EA093 /* Main.storyboard */,
 				FA8518AB28535FE1002EA093 /* Assets.xcassets */,
 				FA8518AD28535FE1002EA093 /* LaunchScreen.storyboard */,
 				FA8518B028535FE1002EA093 /* Info.plist */,
 			);
 			path = ScreenAlbomsHW;
+			sourceTree = "<group>";
+		};
+		FA8518B628536487002EA093 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8518B7285364D2002EA093 /* MediatekaViewController.swift */,
+				FA8518B9285364E5002EA093 /* ForYouViewController.swift */,
+				FA8518BB285364F9002EA093 /* AlbomsViewController.swift */,
+				FA8518BD28536505002EA093 /* SearchViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8518A728535FDF002EA093 /* ViewController.swift in Sources */,
+				FA8518BC285364F9002EA093 /* AlbomsViewController.swift in Sources */,
+				FA8518BE28536505002EA093 /* SearchViewController.swift in Sources */,
+				FA8518B8285364D2002EA093 /* MediatekaViewController.swift in Sources */,
 				FA8518A328535FDF002EA093 /* AppDelegate.swift in Sources */,
-				FA8518A528535FDF002EA093 /* SceneDelegate.swift in Sources */,
+				FA8518BA285364E5002EA093 /* ForYouViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
