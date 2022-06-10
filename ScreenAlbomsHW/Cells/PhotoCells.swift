@@ -46,6 +46,12 @@ class PhotoCells: UICollectionViewCell {
         contentView.addSubview(countOfItems)
     }
     
+    override func prepareForReuse() {
+        image.image = nil
+        title.text = nil
+        countOfItems.text = nil
+    }
+    
     private func setupLayuot(){
         image.translatesAutoresizingMaskIntoConstraints = false
         image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
