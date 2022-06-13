@@ -82,13 +82,13 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
     // секция 1 альбомы
     private func albomsSectionLayuot() -> NSCollectionLayoutSection {
         let itemSize = NSCollectionLayoutSize(
-            widthDimension: .absolute(160),
-            heightDimension: .absolute(210))
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         item.contentInsets = NSDirectionalEdgeInsets(top: .zero, leading: 5, bottom: 30, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
-            widthDimension: .absolute(160),
-            heightDimension: .absolute(210 * 2))
+            widthDimension: .fractionalWidth(0.4),
+            heightDimension: .fractionalHeight(0.475))
         let group = NSCollectionLayoutGroup.vertical(
             layoutSize: groupSize,
             subitem: item,
@@ -96,24 +96,27 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
         group.contentInsets = NSDirectionalEdgeInsets(top: 30, leading: 5, bottom: 5, trailing: 5)
         
         let sections = NSCollectionLayoutSection(group: group)
+        sections.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
+
         return sections
     }
     //секция 2 фото
     private func photoSectionLayuot() -> NSCollectionLayoutSection {
         let itemSize = NSCollectionLayoutSize(
-            widthDimension: .absolute(160),
-            heightDimension: .absolute(230))
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        
+        item.contentInsets = NSDirectionalEdgeInsets(top: .zero, leading: 5, bottom: 30, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
-            widthDimension: .absolute(160),
-            heightDimension: .absolute(230))
+            widthDimension: .fractionalWidth(0.4),
+            heightDimension: .fractionalHeight(0.475))
         let group = NSCollectionLayoutGroup.vertical(
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        
+        group.contentInsets = NSDirectionalEdgeInsets(top: 30, leading: 5, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
+        sections.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
     return sections
     }
     
@@ -131,8 +134,9 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        
         let sections = NSCollectionLayoutSection(group: group)
+        sections.contentInsets.leading = MetricSections.sectionsLeading
+        sections.contentInsets.top = MetricSections.sectionsTop
     return sections
     }
     
@@ -179,20 +183,20 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
     var arraySection: [[Model]] = [
         //секция 1 альбомы
         [Model(image: UIImage(named: "search1"), title: "недавние", countOfItems: "12"),
-         Model(image: UIImage(named: "search1"), title: "Мы", countOfItems: "23"),
-         Model(image: UIImage(named: "search1"), title: "Учеба", countOfItems: "14"),
+         Model(image: UIImage(named: "search2"), title: "Мы", countOfItems: "23"),
+         Model(image: UIImage(named: "search4"), title: "Учеба", countOfItems: "14"),
          Model(image: UIImage(named: "search1"), title: "Вульф", countOfItems: "11"),
          Model(image: UIImage(named: "search1"), title: "Тусе", countOfItems: "45"),
-         Model(image: UIImage(named: "search1"), title: "MacBook", countOfItems: "31"),
+         Model(image: UIImage(named: "search4"), title: "MacBook", countOfItems: "31"),
          Model(image: UIImage(named: "search1"), title: "Еда", countOfItems: "1"),
          Model(image: UIImage(named: "search1"), title: "Работа", countOfItems: "57")],
         //Секция 2 Фото
         [Model(image: UIImage(named: "search3"), title: "недавние", countOfItems: "12"),
-         Model(image: UIImage(named: "search3"), title: "Мы", countOfItems: "23"),
-         Model(image: UIImage(named: "search3"), title: "Учеба", countOfItems: "14"),
-         Model(image: UIImage(named: "search3"), title: "Вульф", countOfItems: "11"),
-         Model(image: UIImage(named: "search3"), title: "Тусе", countOfItems: "45"),
-         Model(image: UIImage(named: "search3"), title: "MacBook", countOfItems: "31"),],
+         Model(image: UIImage(named: "search2"), title: "Мы", countOfItems: "23"),
+         Model(image: UIImage(named: "search1"), title: "Учеба", countOfItems: "14"),
+         Model(image: UIImage(named: "search2"), title: "Вульф", countOfItems: "11"),
+         Model(image: UIImage(named: "search2"), title: "Тусе", countOfItems: "45"),
+         Model(image: UIImage(named: "search4"), title: "MacBook", countOfItems: "31"),],
         //секция 3 таблица
         [Model(image: UIImage(systemName: "video"), title: "Видео", countOfItems: "12"),
          Model(image: UIImage(systemName: "person.crop.square"), title: "Селфи", countOfItems: "23"),
