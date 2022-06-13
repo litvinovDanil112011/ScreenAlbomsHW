@@ -13,9 +13,9 @@ class PhotoCells: UICollectionViewCell {
     
      let image: UIImageView = {
         let image = UIImageView()
-        //image.contentMode = .scaleAspectFit
         image.clipsToBounds = true
         image.layer.masksToBounds = true
+        image.layer.cornerRadius = 5
         return image
     }()
 
