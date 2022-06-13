@@ -84,6 +84,31 @@
 			path = Hender;
 			sourceTree = "<group>";
 		};
+		FA22CDAC285747C100F44A04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA8518AB28535FE1002EA093 /* Assets.xcassets */,
+				FA8518A828535FDF002EA093 /* Main.storyboard */,
+				FA8518B028535FE1002EA093 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA22CDAD285747E600F44A04 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA22CDAE2857482500F44A04 /* New Group */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FA22CDAE2857482500F44A04 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		FA85189628535FDF002EA093 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +128,8 @@
 		FA8518A128535FDF002EA093 /* ScreenAlbomsHW */ = {
 			isa = PBXGroup;
 			children = (
+				FA22CDAD285747E600F44A04 /* Sources */,
+				FA22CDAC285747C100F44A04 /* Resources */,
 				FA8518A228535FDF002EA093 /* AppDelegate.swift */,
 				FA22CDA628561A9F00F44A04 /* Extension */,
 				FA8518B628536487002EA093 /* Controllers */,
@@ -110,9 +137,6 @@
 				FA1EBC7228537EB30067F8A4 /* Model */,
 				FA22CDA928573C3200F44A04 /* Hender */,
 				FA8518AD28535FE1002EA093 /* LaunchScreen.storyboard */,
-				FA8518B028535FE1002EA093 /* Info.plist */,
-				FA8518AB28535FE1002EA093 /* Assets.xcassets */,
-				FA8518A828535FDF002EA093 /* Main.storyboard */,
 			);
 			path = ScreenAlbomsHW;
 			sourceTree = "<group>";
