@@ -10,6 +10,7 @@
 		FA1EBC6F285370460067F8A4 /* PhotoCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1EBC6E285370460067F8A4 /* PhotoCells.swift */; };
 		FA1EBC71285370530067F8A4 /* TableCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1EBC70285370530067F8A4 /* TableCells.swift */; };
 		FA1EBC7428537ED10067F8A4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1EBC7328537ED10067F8A4 /* Model.swift */; };
+		FA22CDA828561ADA00F44A04 /* LayuotCollectionVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22CDA728561ADA00F44A04 /* LayuotCollectionVie.swift */; };
 		FA8518A328535FDF002EA093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8518A228535FDF002EA093 /* AppDelegate.swift */; };
 		FA8518AA28535FDF002EA093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8518A828535FDF002EA093 /* Main.storyboard */; };
 		FA8518AC28535FE1002EA093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8518AB28535FE1002EA093 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		FA1EBC6E285370460067F8A4 /* PhotoCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCells.swift; sourceTree = "<group>"; };
 		FA1EBC70285370530067F8A4 /* TableCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCells.swift; sourceTree = "<group>"; };
 		FA1EBC7328537ED10067F8A4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA22CDA728561ADA00F44A04 /* LayuotCollectionVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayuotCollectionVie.swift; sourceTree = "<group>"; };
 		FA85189F28535FDF002EA093 /* ScreenAlbomsHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenAlbomsHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8518A228535FDF002EA093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8518A928535FDF002EA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FA22CDA628561A9F00F44A04 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA22CDA728561ADA00F44A04 /* LayuotCollectionVie.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		FA85189628535FDF002EA093 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				FA8518A228535FDF002EA093 /* AppDelegate.swift */,
+				FA22CDA628561A9F00F44A04 /* Extension */,
 				FA8518B628536487002EA093 /* Controllers */,
 				FA1EBC6C28536E680067F8A4 /* Cells */,
 				FA1EBC7228537EB30067F8A4 /* Model */,
@@ -182,6 +193,7 @@
 				FA8518B8285364D2002EA093 /* MediatekaViewController.swift in Sources */,
 				FA8518A328535FDF002EA093 /* AppDelegate.swift in Sources */,
 				FA1EBC6F285370460067F8A4 /* PhotoCells.swift in Sources */,
+				FA22CDA828561ADA00F44A04 /* LayuotCollectionVie.swift in Sources */,
 				FA1EBC71285370530067F8A4 /* TableCells.swift in Sources */,
 				FA8518BA285364E5002EA093 /* ForYouViewController.swift in Sources */,
 				FA1EBC7428537ED10067F8A4 /* Model.swift in Sources */,

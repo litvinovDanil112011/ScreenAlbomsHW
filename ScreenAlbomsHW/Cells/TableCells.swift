@@ -10,20 +10,20 @@ import UIKit
 class TableCells: UICollectionViewCell {
    static let idintifear = "TableCells"
     
-    private let image: UIImageView = {
+     let imageTable: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFit
         image.clipsToBounds = true
         return image
     }()
 
-    private let title: UILabel = {
+     let titleTable: UILabel = {
         let title = UILabel()
         title.textColor = .systemBlue
         return title
     }()
     
-    private let countOfItems: UILabel = {
+     let countOfItemsTable: UILabel = {
         let count = UILabel()
         count.textColor = .systemGray3
         return count
@@ -31,8 +31,8 @@ class TableCells: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setupHerarchY()
         setupLayuot()
-        
     }
     
     required init?(coder: NSCoder) {
@@ -40,31 +40,31 @@ class TableCells: UICollectionViewCell {
     }
     
     private func setupHerarchY(){
-        contentView.addSubview(image)
-        contentView.addSubview(title)
-        contentView.addSubview(countOfItems)
+        contentView.addSubview(imageTable)
+        contentView.addSubview(titleTable)
+        contentView.addSubview(countOfItemsTable)
     }
     
     private func setupLayuot(){
-        image.translatesAutoresizingMaskIntoConstraints = false
-        image.widthAnchor.constraint(equalToConstant: MetricTable.sizeImage).isActive = true
-        image.heightAnchor.constraint(equalToConstant: MetricTable.sizeImage).isActive = true
-        image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: MetricTable.leadingImage).isActive = true
-        image.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        imageTable.translatesAutoresizingMaskIntoConstraints = false
+        imageTable.widthAnchor.constraint(equalToConstant: MetricTable.sizeImage).isActive = true
+        imageTable.heightAnchor.constraint(equalToConstant: MetricTable.sizeImage).isActive = true
+        imageTable.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: MetricTable.leadingImage).isActive = true
+        imageTable.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
         
-        title.translatesAutoresizingMaskIntoConstraints = false
-        title.leadingAnchor.constraint(equalTo: image.leadingAnchor, constant: MetricTable.leadingTitle).isActive = true
-        title.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        titleTable.translatesAutoresizingMaskIntoConstraints = false
+        titleTable.leadingAnchor.constraint(equalTo: imageTable.leadingAnchor, constant: MetricTable.leadingTitle).isActive = true
+        titleTable.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
         
-        countOfItems.translatesAutoresizingMaskIntoConstraints = false
-        countOfItems.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
-        countOfItems.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: MetricTable.countTraling).isActive = true
+        countOfItemsTable.translatesAutoresizingMaskIntoConstraints = false
+        countOfItemsTable.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        countOfItemsTable.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: MetricTable.countTraling).isActive = true
     }
 }
 
 enum MetricTable {
     static let sizeImage: CGFloat = 27
     static let leadingImage: CGFloat = 15
-    static let leadingTitle: CGFloat = 20
-    static let countTraling: CGFloat = 20
+    static let leadingTitle: CGFloat = 50
+    static let countTraling: CGFloat = 360
 }
