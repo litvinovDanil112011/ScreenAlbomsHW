@@ -13,6 +13,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
         let collectionsView = UICollectionView(frame: .zero, collectionViewLayout: layuotSections())
         collectionsView.register(PhotoCells.self, forCellWithReuseIdentifier: PhotoCells.idintifear)
         collectionsView.register(TableCells.self, forCellWithReuseIdentifier: TableCells.idintifear)
+        collectionsView.register(HenderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HenderView.idintifiar)
         return collectionsView
     }()
     
@@ -183,7 +184,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
     var arraySection: [[Model]] = [
         //секция 1 альбомы
         [Model(image: UIImage(named: "search1"), title: "недавние", countOfItems: "12"),
-         Model(image: UIImage(named: "search2"), title: "Мы", countOfItems: "23"),
+         Model(image: UIImage(named: "IMG1"), title: "Мы", countOfItems: "23"),
          Model(image: UIImage(named: "search4"), title: "Учеба", countOfItems: "14"),
          Model(image: UIImage(named: "search1"), title: "Вульф", countOfItems: "11"),
          Model(image: UIImage(named: "search1"), title: "Тусе", countOfItems: "45"),
@@ -192,8 +193,8 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
          Model(image: UIImage(named: "search1"), title: "Работа", countOfItems: "57")],
         //Секция 2 Фото
         [Model(image: UIImage(named: "search3"), title: "недавние", countOfItems: "12"),
-         Model(image: UIImage(named: "search2"), title: "Мы", countOfItems: "23"),
-         Model(image: UIImage(named: "search1"), title: "Учеба", countOfItems: "14"),
+         Model(image: UIImage(named: "IMG1"), title: "Мы", countOfItems: "23"),
+         Model(image: UIImage(named: "search4"), title: "Учеба", countOfItems: "14"),
          Model(image: UIImage(named: "search2"), title: "Вульф", countOfItems: "11"),
          Model(image: UIImage(named: "search2"), title: "Тусе", countOfItems: "45"),
          Model(image: UIImage(named: "search4"), title: "MacBook", countOfItems: "31"),],
@@ -210,6 +211,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
          Model(image: UIImage(systemName: "trash"), title: "Недавно удаленные", countOfItems: "14"),]
     ]
 }
+
 //MARK: Enums
 enum Sections: Int {
     case albomsSections = 0
