@@ -1,0 +1,43 @@
+//
+//  HenderView.swift
+//  ScreenAlbomsHW
+//
+//  Created by Daniil Litvinov on 13.06.2022.
+//
+
+import UIKit
+
+class HenderView: UICollectionReusableView {
+    
+    static let idintifiar = "HenderView"
+    
+    lazy var label: UILabel = {
+        let lable = UILabel()
+        lable.textAlignment = .left
+        lable.font = .systemFont(ofSize: 30)
+        lable.textColor = .black
+        return lable
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupHerarchy()
+        setupLayuot()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("")
+    }
+    
+    private func setupHerarchy(){
+       addSubview(label)
+    }
+    
+    private func setupLayuot(){
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        label.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        label.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
+        label.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
+    }
+}
