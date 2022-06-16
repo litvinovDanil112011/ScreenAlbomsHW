@@ -66,5 +66,5 @@ enum MetricTable {
     static let sizeImage: CGFloat = 27
     static let leadingImage: CGFloat = 15
     static let leadingTitle: CGFloat = 50
-    static let countTraling: CGFloat = 360
+    static let countTraling: CGFloat = 340
 }

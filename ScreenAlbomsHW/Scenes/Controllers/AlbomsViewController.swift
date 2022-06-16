@@ -87,7 +87,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             widthDimension: .fractionalWidth(1),
             heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: .zero, leading: 5, bottom: 30, trailing: 5)
+        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 30, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.4),
             heightDimension: .fractionalHeight(0.475))
@@ -95,7 +95,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 2)
-        group.contentInsets = NSDirectionalEdgeInsets(top: 30, leading: 5, bottom: 5, trailing: 5)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
         
         let sections = NSCollectionLayoutSection(group: group)
         sections.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
@@ -116,15 +116,15 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             widthDimension: .fractionalWidth(1),
             heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: .zero, leading: 5, bottom: 30, trailing: 5)
+        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.4),
-            heightDimension: .fractionalHeight(0.475))
+            heightDimension: .fractionalHeight(0.25))
         let group = NSCollectionLayoutGroup.vertical(
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        group.contentInsets = NSDirectionalEdgeInsets(top: 30, leading: 5, bottom: 5, trailing: 5)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
         sections.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
         
@@ -144,7 +144,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             widthDimension: .fractionalWidth(0.1 / 2),
             heightDimension: .fractionalHeight(0.1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        
+        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.1),
             heightDimension: .fractionalHeight(0.1 / 2))
@@ -152,8 +152,8 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 1)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
-        
         let headerSize = NSCollectionLayoutSize(
             widthDimension: .fractionalHeight(0.4),
             heightDimension: .absolute(45))
@@ -170,7 +170,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             widthDimension: .fractionalWidth(0.1 / 2),
             heightDimension: .fractionalHeight(0.1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        
+        item.contentInsets = NSDirectionalEdgeInsets(top: .zero, leading: 5, bottom: 5, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.1),
             heightDimension: .fractionalHeight(0.1 / 2))
@@ -178,7 +178,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        
+        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
         sections.contentInsets.leading = MetricSections.sectionsLeading
         sections.contentInsets.top = MetricSections.sectionsTop
@@ -244,6 +244,6 @@ enum Sections: Int {
 }
 
 enum MetricSections {
-    static let sectionsLeading: CGFloat = 5
-    static let sectionsTop: CGFloat = 20
+    static let sectionsLeading: CGFloat = 2
+    static let sectionsTop: CGFloat = 10
 }
