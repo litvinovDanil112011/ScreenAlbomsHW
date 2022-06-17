@@ -14,7 +14,7 @@ class HenderView: UICollectionReusableView {
     lazy var label: UILabel = {
         let lable = UILabel()
         lable.textAlignment = .left
-        lable.font = .systemFont(ofSize: 30)
+        lable.font = .systemFont(ofSize: MetricHaader.textSize, weight: .bold)
         lable.textColor = .black
         return lable
     }()
@@ -40,4 +40,8 @@ class HenderView: UICollectionReusableView {
         label.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
         label.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
     }
+}
+
+enum MetricHaader {
+    static let textSize: CGFloat = 30
 }
