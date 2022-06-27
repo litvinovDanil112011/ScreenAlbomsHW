@@ -80,6 +80,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
         }
         return UICollectionViewCell()
     }
+    
     //MARK: Sections Layuot
     // секция 1 альбомы
     private func albomsSectionLayuot() -> NSCollectionLayoutSection {
@@ -87,7 +88,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             widthDimension: .fractionalWidth(1),
             heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 30, trailing: 5)
+        item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 10, bottom: 10, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.4),
             heightDimension: .fractionalHeight(0.475))
@@ -95,11 +96,11 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 2)
-        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 5)
         
         let sections = NSCollectionLayoutSection(group: group)
-        sections.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
-        
+        sections.orthogonalScrollingBehavior = .paging
+        // hender
         let headerSize = NSCollectionLayoutSize(
             widthDimension: .fractionalHeight(0.4),
             heightDimension: .absolute(45))
@@ -116,7 +117,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             widthDimension: .fractionalWidth(1),
             heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
+        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: .zero, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.4),
             heightDimension: .fractionalHeight(0.25))
@@ -124,10 +125,10 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
-        sections.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
-        
+        sections.orthogonalScrollingBehavior = .paging
+        // hender
         let headerSize = NSCollectionLayoutSize(
             widthDimension: .fractionalHeight(0.4),
             heightDimension: .absolute(45))
@@ -141,10 +142,10 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
     //секция 3 таблица
     private func tableSectionLayuot() -> NSCollectionLayoutSection {
         let itemSize = NSCollectionLayoutSize(
-            widthDimension: .fractionalWidth(0.1 / 2),
-            heightDimension: .fractionalHeight(0.1))
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
+        item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.1),
             heightDimension: .fractionalHeight(0.1 / 2))
@@ -152,8 +153,9 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
+        // hender
         let headerSize = NSCollectionLayoutSize(
             widthDimension: .fractionalHeight(0.4),
             heightDimension: .absolute(45))
@@ -167,22 +169,22 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
     //секция 4 таблица
     private func tableSettingsSectionLayuot() -> NSCollectionLayoutSection {
         let itemSize = NSCollectionLayoutSize(
-            widthDimension: .fractionalWidth(0.1 / 2),
-            heightDimension: .fractionalHeight(0.1))
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: .zero, leading: 5, bottom: 5, trailing: 5)
+        item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 5)
         let groupSize = NSCollectionLayoutSize(
             widthDimension: .fractionalWidth(0.1),
-            heightDimension: .fractionalHeight(0.1 / 2))
+            heightDimension: .absolute(45))
         let group = NSCollectionLayoutGroup.vertical(
             layoutSize: groupSize,
             subitem: item,
             count: 1)
-        group.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 5, bottom: 5, trailing: 5)
+        group.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 5)
         let sections = NSCollectionLayoutSection(group: group)
         sections.contentInsets.leading = MetricSections.sectionsLeading
         sections.contentInsets.top = MetricSections.sectionsTop
-        
+        // hender
         let headerSize = NSCollectionLayoutSize(
             widthDimension: .fractionalHeight(0.4),
             heightDimension: .absolute(45))

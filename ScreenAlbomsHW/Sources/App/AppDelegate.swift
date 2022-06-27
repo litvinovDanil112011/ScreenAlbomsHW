@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        
         let tabBarController = UITabBarController()
         
         let mediatekaItem = MediatekaViewController()
@@ -43,7 +43,5 @@ var window: UIWindow?
         window?.makeKeyAndVisible()
         return true
     }
-
- 
 }
 

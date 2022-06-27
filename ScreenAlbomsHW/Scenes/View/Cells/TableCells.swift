@@ -36,7 +36,7 @@ class TableCells: UICollectionViewCell {
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     
     private func setupHerarchY(){
@@ -44,6 +44,13 @@ class TableCells: UICollectionViewCell {
         contentView.addSubview(titleTable)
         contentView.addSubview(countOfItemsTable)
     }
+    
+//    override func prepareForReuse() {
+//        super.prepareForReuse()
+//        imageTable.image = nil
+//        titleTable.text = nil
+//        countOfItemsTable.text = nil
+//    }
     
     private func setupLayuot(){
         imageTable.translatesAutoresizingMaskIntoConstraints = false

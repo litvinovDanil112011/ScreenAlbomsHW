@@ -68,7 +68,6 @@
 			children = (
 				FA1EBC7328537ED10067F8A4 /* Model.swift */,
 				FA22CDB32857728F00F44A04 /* Data.swift */,
-				FA22CDA628561A9F00F44A04 /* Extension */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +94,7 @@
 		FA22CDAD285747E600F44A04 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA22CDA628561A9F00F44A04 /* Extension */,
 				FA22CDAF285748C200F44A04 /* App */,
 			);
 			path = Sources;

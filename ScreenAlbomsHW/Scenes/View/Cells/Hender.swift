@@ -26,7 +26,7 @@ class HenderView: UICollectionReusableView {
     }
     
     required init?(coder: NSCoder) {
-        fatalError("")
+        super.init(coder: coder)
     }
     
     private func setupHerarchy(){
