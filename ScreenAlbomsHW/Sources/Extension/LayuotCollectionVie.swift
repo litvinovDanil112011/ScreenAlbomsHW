@@ -11,6 +11,7 @@ extension AlbomsViewController {
     
     func setupCollectionsframe(){
         view.addSubview(collectionsView)
+
 //        collectionsView.translatesAutoresizingMaskIntoConstraints = false
 //        collectionsView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
 //        collectionsView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true

@@ -11,7 +11,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     public var modelData = Data().data
     
-     lazy var collectionsView: UICollectionView = {
+    public lazy var collectionsView: UICollectionView = {
         let collectionsView = UICollectionView(frame: .zero, collectionViewLayout: layuotSections())
         collectionsView.register(PhotoCells.self, forCellWithReuseIdentifier: PhotoCells.idintifear)
         collectionsView.register(TableCells.self, forCellWithReuseIdentifier: TableCells.idintifear)
@@ -24,7 +24,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate, UICollec
         title = "Альбомы"
         view.backgroundColor = .white
         collectionsView.delegate = self
-        collectionsView.dataSource = self  
+        collectionsView.dataSource = self
         setupCollectionsframe()
     }
     
