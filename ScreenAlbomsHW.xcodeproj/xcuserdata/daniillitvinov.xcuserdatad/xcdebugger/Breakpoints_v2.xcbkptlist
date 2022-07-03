@@ -332,8 +332,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "loadView()"
-            landmarkType = "7">
+            landmarkName = "mainScreen"
+            landmarkType = "24">
             <Locations>
                <Location
                   uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - b76be20679ff9c0a"
@@ -440,8 +440,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
             endingLineNumber = "28"
-            landmarkName = "AlbomsViewController"
-            landmarkType = "3">
+            landmarkName = "viewDidLoad()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

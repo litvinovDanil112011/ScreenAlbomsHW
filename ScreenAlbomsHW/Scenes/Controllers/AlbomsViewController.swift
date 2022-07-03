@@ -9,11 +9,11 @@ import UIKit
 
 class AlbomsViewController: UIViewController, UICollectionViewDelegate {
     
-<<<<<<< HEAD
+
     private var mainScreen: MainScreen! {
         guard isViewLoaded else { return nil }
         return (view as! MainScreen)
-=======
+
     public var modelData = Data().data
     
     public lazy var collectionsView: UICollectionView = {
