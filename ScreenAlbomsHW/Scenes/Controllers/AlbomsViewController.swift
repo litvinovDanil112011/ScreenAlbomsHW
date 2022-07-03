@@ -26,7 +26,7 @@ class AlbomsViewController: UIViewController, UICollectionViewDelegate {
         configureView()
     }
 }
-
+//MARK: 
 extension AlbomsViewController {
     func configureView() {
         title = "Альбомы"

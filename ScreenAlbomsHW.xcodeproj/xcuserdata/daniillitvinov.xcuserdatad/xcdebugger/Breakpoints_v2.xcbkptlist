@@ -252,8 +252,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "MainScreen"
-            landmarkType = "3">
+            landmarkName = "init?(coder:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "05C4398E-5C00-4FA9-BEA2-FFFD7F7134B4 - 10d8f43d1409fea5"
@@ -432,7 +432,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "07C1B5E3-9737-4D7B-824A-47D0E5D830C1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
