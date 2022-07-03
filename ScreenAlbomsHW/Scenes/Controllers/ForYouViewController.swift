@@ -12,6 +12,5 @@ class ForYouViewController: UIViewController {
         super.viewDidLoad()
         title = "Для Вас"
         view.backgroundColor = .white
-
     }
 }
