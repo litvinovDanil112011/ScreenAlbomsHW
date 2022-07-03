@@ -252,8 +252,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "init(frame:)"
-            landmarkType = "7">
+            landmarkName = "MainScreen"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "05C4398E-5C00-4FA9-BEA2-FFFD7F7134B4 - 10d8f43d1409fea5"

@@ -12,6 +12,5 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         title = "Поиск"
         view.backgroundColor = .white
-
     }
 }

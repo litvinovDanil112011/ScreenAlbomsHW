@@ -1,5 +1,5 @@
 //
-//  LayuotCollectionVie.swift
+//  ExtensionDataSourse.swift
 //  ScreenAlbomsHW
 //
 //  Created by Daniil Litvinov on 12.06.2022.
@@ -8,8 +8,7 @@
 import UIKit
 
 extension AlbomsViewController: UICollectionViewDataSource {
-    
-<<<<<<< HEAD
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch section {
         case 0:
@@ -27,6 +26,7 @@ extension AlbomsViewController: UICollectionViewDataSource {
         default:
             print("ERROR IN SECTION")
             return 0
+            
         }
     }
     
@@ -69,37 +69,24 @@ extension AlbomsViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: HenderView.idintifiar, for: indexPath) as? HenderView else {
-            return HenderView()}
+      guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: HenderView.idintifiar, for: indexPath) as? HenderView else {
+          return HenderView()}
         
         header.frame.size.height = 60
         
-        switch indexPath.section {
-        case 0:
-            header.label.text = "Мои Альбомы"
-        case 1:
-            header.label.text = "Общие альбомы"
-        case 2:
-            header.label.text = "Типы медиафайлов"
-        case 3:
-            header.label.text = "Другое"
-        default:
-            break
-        }
+          switch indexPath.section {
+          case 0:
+              header.label.text = "Мои Альбомы"
+          case 1:
+              header.label.text = "Общие альбомы"
+          case 2:
+              header.label.text = "Типы медиафайлов"
+          case 3:
+              header.label.text = "Другое"
+          default:
+              break
+          }
         return header
-=======
-    func setupCollectionsframe(){
-        view.addSubview(collectionsView)
-
-//        collectionsView.translatesAutoresizingMaskIntoConstraints = false
-//        collectionsView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-//        collectionsView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-//        collectionsView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-//        collectionsView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-
-        collectionsView.frame = view.bounds
-        collectionsView.backgroundColor = .white
->>>>>>> 0e54c7c71f1e21d2fbcc56f99e215196828d523a
     }
 }
 

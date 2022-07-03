@@ -15,11 +15,7 @@ var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
-<<<<<<< HEAD
-        
-=======
-                        
->>>>>>> 0e54c7c71f1e21d2fbcc56f99e215196828d523a
+
         let tabBarController = UITabBarController()
         
         let mediatekaItem = MediatekaViewController()
