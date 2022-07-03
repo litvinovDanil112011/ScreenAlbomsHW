@@ -3,4 +3,446 @@
    uuid = "4E681844-61E6-40D3-BF91-D10485836D80"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F767B81-7F81-4006-B398-CC737CA28652"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "mainScreen"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D23712CE-80B0-4513-8244-5C1F7EB18F53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "MainScreen"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBF27FFB-1852-47BC-906C-E55CDFBF3063"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "MainScreen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EBF27FFB-1852-47BC-906C-E55CDFBF3063 - 943bc72db6224f35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.MainScreen.__allocating_init() -&gt; ScreenAlbomsHW.MainScreen"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "EBF27FFB-1852-47BC-906C-E55CDFBF3063 - f60dd7199773b939"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.MainScreen.init() -&gt; ScreenAlbomsHW.MainScreen"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F2F1B25-61A4-4C5E-B7D5-6155CFE67E53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "AlbomsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34 - b76be20679ff9c0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.getter : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34 - f16fb2e0d90d629e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.setter : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34 - 760309b00f67f3af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.modify : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34 - e62178f068e3f862"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.modify : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34 - dee69eabd92fbd19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ScreenAlbomsHW.AlbomsViewController"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "F6B44816-959B-4C70-A7D5-0EF9B8C43B34 - 217cce84a489725b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ScreenAlbomsHW.AlbomsViewController&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC10F17C-9792-48E8-9D26-DE7D600FFC39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4811A40-82E6-43B7-819B-2E2A962F7D0A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05C4398E-5C00-4FA9-BEA2-FFFD7F7134B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "MainScreen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "05C4398E-5C00-4FA9-BEA2-FFFD7F7134B4 - 10d8f43d1409fea5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.MainScreen.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ScreenAlbomsHW.MainScreen&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "05C4398E-5C00-4FA9-BEA2-FFFD7F7134B4 - f371d5b3affb45fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.MainScreen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ScreenAlbomsHW.MainScreen&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CF9C67B-FBB3-491F-AE6C-2E17B4D50D70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/View/MainScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50213E31-9393-4174-B251-F3DC58D079B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "mainScreen"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - b76be20679ff9c0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.getter : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - f16fb2e0d90d629e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.setter : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - 760309b00f67f3af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.modify : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - e62178f068e3f862"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.modelData.modify : Swift.Array&lt;Swift.Array&lt;ScreenAlbomsHW.Model&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - dee69eabd92fbd19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ScreenAlbomsHW.AlbomsViewController"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "F4F7C6BE-602C-42CA-850F-E7368E212CAD - 217cce84a489725b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScreenAlbomsHW.AlbomsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ScreenAlbomsHW.AlbomsViewController&gt;"
+                  moduleName = "ScreenAlbomsHW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniillitvinov/Desktop/ScreenAlbomsHW/ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07C1B5E3-9737-4D7B-824A-47D0E5D830C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScreenAlbomsHW/Scenes/Controllers/AlbomsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "AlbomsViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
