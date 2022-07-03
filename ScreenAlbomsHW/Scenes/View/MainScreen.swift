@@ -24,22 +24,26 @@ class MainScreen: UIView {
         self.models = models
         collectionsView.reloadData()
     }
-    // MARK: init
+    
+    // MARK: Иницилизаторы
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureView(with: models)
         setupView()
         setupLayout()
     }
+
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupView()
         setupLayout()
     }
+    
     func setupView() {
         backgroundColor = .red
         addSubview(collectionsView)
     }
+    
     func setupLayout() {
         collectionsView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         collectionsView.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
@@ -47,6 +51,7 @@ class MainScreen: UIView {
         collectionsView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
     }
 }
+
 //MARK: расширение
 extension MainScreen {
     private func layuotSections() -> UICollectionViewLayout {
