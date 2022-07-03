@@ -24,8 +24,7 @@ class MainScreen: UIView {
         self.models = models
         collectionsView.reloadData()
     }
-    
-    // MARK: Иницилизаторы
+    // MARK: init
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureView(with: models)
@@ -51,7 +50,6 @@ class MainScreen: UIView {
         collectionsView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
     }
 }
-
 //MARK: расширение
 extension MainScreen {
     private func layuotSections() -> UICollectionViewLayout {
